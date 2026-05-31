@@ -4,7 +4,7 @@ import { useScrollNavigation } from "../../hooks/useScrollNavigation";
 /**
  * Footer component
  *
- * Includes navigation links with scroll behavior.
+ * Includes navigation links with scroll behavior using useScrollNavigation hook.
  *
  * @returns The footer component
  */
