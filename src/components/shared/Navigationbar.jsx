@@ -18,7 +18,11 @@ export default function NavigationBar() {
   return (
     <header className="bg-white w-full fixed text-primary border-b border-black/10 z-9999">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <button to="/" className="text-h5 font-semibold" onClick={scrollToTop}>
+        <button
+          to="/"
+          className="text-h5 font-semibold cursor-pointer"
+          onClick={scrollToTop}
+        >
           Martine R Karlsen
         </button>
 
