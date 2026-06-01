@@ -13,7 +13,7 @@ const projects = [
     path: "javascriptframeworks",
     title: "JavaScript Frameworks",
     description:
-      "A fully functional e-commerce store built with React and Next.A fully functional e-commerce store built with React and Next.js, featuring product listings, search and sorting, detailed product pages, a shopping cart, checkout flow, a contact form, and full mobile responsiveness.",
+      "A fully functional e-commerce store built with React and Next.js, featuring product listings, search, sorting, cart, checkout, a contact form, and full mobile responsiveness.",
     tag: "Frontend development",
     image: "/JSFWPreview.png",
   },
@@ -22,7 +22,7 @@ const projects = [
     path: "semesterproject2",
     title: "Semester project 2",
     description:
-      "An auction house web application built on Noroff's API, where registered users can manage profiles, create and bid on listings, and track bid history, while guests can browse and search without an account. Built with a mobile-first, responsive design using full CRUD functionality.",
+      "An auction web application where users can create listings, place bids, and manage their profile. Guests can browse and search without an account. Built mobile-first with full CRUD functionality.",
     tag: "Frontend development",
     image: "/SP2Preview.png",
   },
