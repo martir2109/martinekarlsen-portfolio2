@@ -19,7 +19,7 @@ export function CopyToClipboard() {
   return (
     <button
       onClick={copyLink}
-      className="flex my-4 cursor-pointer items-center gap-2 px-4 py-2 rounded-full border border-black/10 text-normal-text hover:bg-black/5 transition"
+      className="flex mt-3 mb-6 cursor-pointer items-center gap-2 px-4 py-2 rounded-full border border-black/30 text-normal-text hover:bg-black/10 transition"
     >
       <Link size={18} />
       {copied ? "Copied!" : "Copy link"}
