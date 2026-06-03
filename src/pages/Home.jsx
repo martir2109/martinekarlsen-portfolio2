@@ -1,6 +1,5 @@
 import About from "../components/shared/About";
 import Projects from "../components/shared/Projects";
-import ScrollToTopButton from "../components/shared/ScrollToTopButton";
 
 /**
  * Home page
@@ -12,7 +11,6 @@ import ScrollToTopButton from "../components/shared/ScrollToTopButton";
 export default function Home() {
   return (
     <div className="min-h-screen h-fit px-4">
-      <ScrollToTopButton />
       <section id="about" className="scroll-mt-24">
         <About />
       </section>

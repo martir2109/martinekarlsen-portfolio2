@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import NavigationBar from "./Navigationbar";
 import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
+import ScrollToTopButton from "./ScrollToTopButton";
 
 /**
  * Main layout wrapper for all pages.
@@ -15,6 +16,7 @@ export default function Layout() {
     <div className="min-h-screen flex flex-col font-nunito">
       <ScrollToTop />
       <NavigationBar />
+      <ScrollToTopButton />
 
       <main className="w-full min-h-screen mx-auto pt-14 bg-secondary text-charcoal overflow-hidden">
         <Outlet />
