@@ -26,9 +26,11 @@ export default function ProjectCard({ project }) {
         <p className="text-small-text opacity-80 mt-3 flex-1">
           {project.description}
         </p>
-        <p className="text-normal-text font-medium hover:underline mt-4">
-          View project →
-        </p>
+        <a href={`/${project.path}`}>
+          <p className="text-normal-text font-medium hover:underline mt-4">
+            View project →
+          </p>
+        </a>
       </div>
     </a>
   );
