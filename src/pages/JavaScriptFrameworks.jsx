@@ -1,5 +1,6 @@
 import { Globe, BookOpen } from "lucide-react";
 import { CopyToClipboard } from "../components/shared/CopyToClipboard";
+import { FaGithub } from "react-icons/fa";
 
 /**
  * JavaScript Frameworks page
@@ -116,13 +117,14 @@ export default function JavaScriptFrameworks() {
 
       <div className="w-full h-px bg-black/10" />
 
-      <div className="flex flex-col sm:flex-row gap-4">
+      <div className="flex flex-wrap gap-4">
         <a
           href="https://github.com/NoroffFEU/jsfw-2025-v1-martine-rk-js-frameworks"
           target="_blank"
           rel="noreferrer"
-          className="px-6 py-3 bg-primary text-white rounded-full text-normal-text hover:opacity-80 transition cursor-pointer"
+          className="px-6 py-3 flex items-center gap-2 bg-primary text-white rounded-full text-normal-text hover:opacity-80 transition cursor-pointer"
         >
+          <FaGithub size={18} />
           View Repository →
         </a>
 

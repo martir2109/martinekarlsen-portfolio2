@@ -1,5 +1,6 @@
 import { BookOpen, Globe } from "lucide-react";
 import { CopyToClipboard } from "../components/shared/CopyToClipboard";
+import { FaGithub } from "react-icons/fa";
 
 /**
  * Semester Project 2 page
@@ -122,13 +123,14 @@ export default function SemesterProject2() {
 
       <div className="w-full h-px bg-black/10" />
 
-      <div className="flex flex-col sm:flex-row gap-4">
+      <div className="flex flex-wrap gap-4">
         <a
           href="https://github.com/martir2109/FED2-SP2-martir2109"
           target="_blank"
           rel="noreferrer"
-          className="px-6 py-3 bg-primary text-white rounded-full text-normal-text hover:opacity-80 transition cursor-pointer"
+          className="px-6 py-3 flex items-center gap-2 bg-primary text-white rounded-full text-normal-text hover:opacity-80 transition cursor-pointer"
         >
+          <FaGithub size={18} />
           View Repository →
         </a>
 
