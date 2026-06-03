@@ -73,6 +73,8 @@ export default function About() {
           </p>
         </section>
 
+        <div className="w-full h-px bg-black/10" />
+
         <section className="pt-10">
           <ToolsAndTechnologies />
         </section>
