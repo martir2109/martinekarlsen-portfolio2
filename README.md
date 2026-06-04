@@ -24,6 +24,7 @@ My portfolio includes three of the projects I have completed the past year durin
 - Lucide react (icons)
 - EmailJS (contact form)
 - React icons (GitHub icon)
+- Frames motion (Scroll animation)
 
 ## ✨ Features
 
