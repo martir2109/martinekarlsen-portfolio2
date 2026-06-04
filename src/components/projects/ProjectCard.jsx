@@ -10,7 +10,7 @@ export default function ProjectCard({ project }) {
   return (
     <a
       href={`/${project.path}`}
-      className="bg-white border border-black/10 rounded-lg overflow-hidden hover:shadow-md transition flex flex-col"
+      className="h-full bg-white border border-black/10 rounded-lg overflow-hidden hover:shadow-md transition flex flex-col"
     >
       <div className="h-48 w-full overflow-hidden">
         <img
